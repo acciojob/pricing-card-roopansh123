@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+/* 1. Card Container */
+.card {
+  width: 250px;
+  padding: 20px;
+  background-color: lightgrey;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Added valid offsets and blur */
+  border-radius: 10px; /* Optional: Makes the card look a bit nicer */
+  text-align: center;  /* Optional: Centers the text inside the card */
+  font-family: sans-serif;
+}
+
+/* 2. Image Styling */
+img {
+  width: 100%; /* Ensures the image fits perfectly within the card's width */
+  border-radius: 5px;
+}
+
+/* 6. Buy Now Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white; /* Text color */
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #004494; /* Optional hover effect */
+}
